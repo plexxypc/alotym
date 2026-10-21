@@ -687,6 +687,12 @@ p {
   background: var(--vx-surface);
 }
 
+.vx_footer .vx_logo {
+  position: static;
+  left: auto;
+  transform: none;
+}
+
 .vx_footer .vx_logo_image {
   height: 3.5rem;
   max-width: 16rem;
@@ -1322,7 +1328,7 @@ p {
 }
 
 @media (max-width: 991.98px) {
-  .vx_logo {
+  .vx_header .vx_logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
